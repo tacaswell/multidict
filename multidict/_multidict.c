@@ -1,6 +1,7 @@
 #include "Python.h"
 #include "structmember.h"
-
+#define Py_BUILD_CORE
+#include "internal/pycore_modsupport.h"
 // Include order important
 #include "_multilib/defs.h"
 #include "_multilib/istr.h"
